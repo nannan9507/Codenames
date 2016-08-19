@@ -1,0 +1,38 @@
+{
+  "name": "avalon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-runtime": "^6.0.0",
+    "css-loader": "^0.22.0",
+    "express": "^4.13.4",
+    "less-loader": "^2.2.2",
+    "style-loader": "^0.12.3",
+    "vue-hot-reload-api": "^1.3.1",
+    "vue-loader": "*",
+    "vue-resource": "^0.7.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "start": "",
+    "build": "webpack-dev-server --inline --quiet"
+  },
+  "author": "summerD",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "socket.io": "^1.4.6",
+    "socket.io-client": "^1.4.8",
+    "vue": "1.0.0",
+    "vue-resource": "^0.7.0",
+    "vue-router": "^0.7.5"
+  }
+}
